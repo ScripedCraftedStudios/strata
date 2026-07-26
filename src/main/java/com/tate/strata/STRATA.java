@@ -54,6 +54,23 @@ public class STRATA {
     public static final DeferredItem<Item> EXAMPLE_ITEM = ITEMS.registerSimpleItem("example_item", p -> p.food(new FoodProperties.Builder()
             .alwaysEdible().nutrition(1).saturationModifier(2f).build()));
 
+    // --- STRATA -------------------------------------------------------------
+
+    // Seed Shard: a fragment of the world's own generation data. Fuel for the rift.
+    public static final DeferredItem<Item> SEED_SHARD =
+            ITEMS.registerSimpleItem("seed_shard", p -> p.stacksTo(16));
+
+    // Rift Anchor: strike with a Seed Shard to open a passage into Stratum I.
+    public static final DeferredBlock<RiftAnchorBlock> RIFT_ANCHOR =
+            BLOCKS.registerBlock("rift_anchor", RiftAnchorBlock::new,
+                    p -> p.mapColor(MapColor.DEEPSLATE)
+                            .strength(4.0F, 1200.0F)
+                            .requiresCorrectToolForDrops()
+                            .lightLevel(s -> 3));
+
+    public static final DeferredItem<BlockItem> RIFT_ANCHOR_ITEM =
+            ITEMS.registerSimpleBlockItem("rift_anchor", RIFT_ANCHOR);
+
     // Creates a creative tab with the id "strata:example_tab" for the example item, that is placed after the combat tab
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.strata")) //The language key for the title of your CreativeModeTab
@@ -61,6 +78,8 @@ public class STRATA {
             .icon(() -> EXAMPLE_ITEM.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
+                output.accept(SEED_SHARD.get());
+                output.accept(RIFT_ANCHOR_ITEM.get());
             }).build());
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DDD",
+    "D#D",
+    "DDD"
+  ],
+  "key": {
+    "D": "minecraft:deepslate",
+    "#": "minecraft:echo_shard"
+  },
+  "result": {
+    "id": "strata:rift_anchor",
+    "count": 1
+  }
+}

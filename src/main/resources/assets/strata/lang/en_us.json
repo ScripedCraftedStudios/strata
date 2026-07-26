@@ -5,6 +5,9 @@
 
   "block.strata.bed.no_sleep_in_stratum": "You cannot sleep here. This world has already ended.",
 
+  "item.strata.seed_shard": "Seed Shard",
+  "block.strata.rift_anchor": "Rift Anchor",
+
   "strata.configuration.title": "STRATA Configs",
   "strata.configuration.section.strata.common.toml": "STRATA Configs",
   "strata.configuration.section.strata.common.toml.title": "STRATA Configs",

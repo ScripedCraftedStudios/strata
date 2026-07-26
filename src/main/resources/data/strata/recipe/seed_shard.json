@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:amethyst_shard",
+    "minecraft:gravel",
+    "minecraft:gravel"
+  ],
+  "result": {
+    "id": "strata:seed_shard",
+    "count": 1
+  }
+}
