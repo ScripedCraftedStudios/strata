@@ -12,6 +12,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -71,6 +72,20 @@ public class STRATA {
     public static final DeferredItem<BlockItem> RIFT_ANCHOR_ITEM =
             ITEMS.registerSimpleBlockItem("rift_anchor", RIFT_ANCHOR);
 
+    // --- Relics: echoes of Minecraft's own discarded history ----------------
+
+    // Ruby: the gem Notch cut before Emerald shipped in 1.3.
+    public static final DeferredItem<Item> RUBY =
+            ITEMS.registerSimpleItem("ruby", p -> p);
+
+    // Rose: the flower the Poppy replaced in 1.7.
+    public static final DeferredItem<Item> ROSE =
+            ITEMS.registerSimpleItem("rose", p -> p);
+
+    // Changelog Page: "Removed Herobrine" appeared in the patch notes for years.
+    public static final DeferredItem<Item> CHANGELOG_PAGE =
+            ITEMS.registerSimpleItem("changelog_page", p -> p.stacksTo(1).rarity(Rarity.RARE));
+
     // Creates a creative tab with the id "strata:example_tab" for the example item, that is placed after the combat tab
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.strata")) //The language key for the title of your CreativeModeTab
@@ -80,6 +95,9 @@ public class STRATA {
                 output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
                 output.accept(SEED_SHARD.get());
                 output.accept(RIFT_ANCHOR_ITEM.get());
+                output.accept(RUBY.get());
+                output.accept(ROSE.get());
+                output.accept(CHANGELOG_PAGE.get());
             }).build());
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.

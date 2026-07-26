@@ -17,8 +17,18 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:amethyst_shard",
+          "name": "strata:rose",
           "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "strata:ruby",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -27,17 +37,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:poppy",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gold_nugget",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "name": "strata:changelog_page",
           "weight": 1
         }
       ]
