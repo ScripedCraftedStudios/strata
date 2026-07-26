@@ -1,0 +1,13 @@
+{
+  "itemGroup.strata": "Example Mod Tab",
+  "block.strata.example_block": "Example Block",
+  "item.strata.example_item": "Example Item",
+
+  "strata.configuration.title": "	STRATA Configs",
+  "strata.configuration.section.strata.common.toml": "	STRATA Configs",
+  "strata.configuration.section.strata.common.toml.title": "	STRATA Configs",
+  "strata.configuration.items": "Item List",
+  "strata.configuration.logDirtBlock": "Log Dirt Block",
+  "strata.configuration.magicNumberIntroduction": "Magic Number Text",
+  "strata.configuration.magicNumber": "Magic Number"
+}
