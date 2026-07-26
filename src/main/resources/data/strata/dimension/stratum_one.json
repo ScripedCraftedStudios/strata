@@ -6,6 +6,6 @@
       "type": "minecraft:fixed",
       "biome": "strata:echo_plains"
     },
-    "settings": "minecraft:overworld"
+    "settings": "strata:beta_layer"
   }
 }
