@@ -1,11 +1,13 @@
 {
-  "itemGroup.strata": "Example Mod Tab",
+  "itemGroup.strata": "STRATA",
   "block.strata.example_block": "Example Block",
   "item.strata.example_item": "Example Item",
 
-  "strata.configuration.title": "	STRATA Configs",
-  "strata.configuration.section.strata.common.toml": "	STRATA Configs",
-  "strata.configuration.section.strata.common.toml.title": "	STRATA Configs",
+  "block.strata.bed.no_sleep_in_stratum": "You cannot sleep here. This world has already ended.",
+
+  "strata.configuration.title": "STRATA Configs",
+  "strata.configuration.section.strata.common.toml": "STRATA Configs",
+  "strata.configuration.section.strata.common.toml.title": "STRATA Configs",
   "strata.configuration.items": "Item List",
   "strata.configuration.logDirtBlock": "Log Dirt Block",
   "strata.configuration.magicNumberIntroduction": "Magic Number Text",
