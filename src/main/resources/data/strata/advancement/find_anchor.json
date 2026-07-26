@@ -1,0 +1,34 @@
+{
+  "parent": "strata:root",
+  "display": {
+    "icon": {
+      "id": "strata:rift_anchor"
+    },
+    "title": {
+      "translate": "advancements.strata.find_anchor.title"
+    },
+    "description": {
+      "translate": "advancements.strata.find_anchor.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "anchor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "strata:rift_anchor"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "anchor"
+    ]
+  ]
+}

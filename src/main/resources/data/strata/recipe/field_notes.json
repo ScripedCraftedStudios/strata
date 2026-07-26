@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:book",
+    "strata:seed_shard"
+  ],
+  "result": {
+    "id": "minecraft:written_book",
+    "count": 1,
+    "components": {
+      "minecraft:written_book_content": {
+        "title": "Excavator's Field Notes",
+        "author": "An Earlier Hand",
+        "generation": 2,
+        "pages": [
+          "Field Notes\non the Strata\n\n\nWhoever finds this: the ground remembers.",
+          "I found this chamber sealed. No door, no shaft. Whoever built it meant it to stay shut.\n\nThe gravel is disturbed. Brush it and it gives things up.",
+          "Seed Shards, mostly. Fragments of the world's own generation data.\n\nAlso a red gem nobody mines any more. A flower I don't recognise. A page of notes that isn't mine.",
+          "The frame at the centre is the point of all this.\n\nStrike it with a Seed Shard and it opens.",
+          "I went through.\n\nSame coordinates. Same seed. Not the same world.\n\nThe sky sits lower. The hills are stepped.",
+          "To come back, touch the frame with an empty hand. That much is free.\n\nGoing in costs a shard. Coming out never should.",
+          "Nothing grows there that I planted. Nothing rains. You cannot sleep.\n\nIt is your world. Just not the version you remember."
+        ],
+        "resolved": true
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "strata:root",
+  "display": {
+    "icon": {
+      "id": "strata:rose"
+    },
+    "title": {
+      "translate": "advancements.strata.rose.title"
+    },
+    "description": {
+      "translate": "advancements.strata.rose.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "rose": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "strata:rose"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rose"
+    ]
+  ]
+}

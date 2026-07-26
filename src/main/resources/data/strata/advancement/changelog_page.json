@@ -1,0 +1,34 @@
+{
+  "parent": "strata:root",
+  "display": {
+    "icon": {
+      "id": "strata:changelog_page"
+    },
+    "title": {
+      "translate": "advancements.strata.changelog_page.title"
+    },
+    "description": {
+      "translate": "advancements.strata.changelog_page.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "page": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "strata:changelog_page"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "page"
+    ]
+  ]
+}

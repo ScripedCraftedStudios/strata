@@ -1,0 +1,30 @@
+{
+  "parent": "strata:find_anchor",
+  "display": {
+    "icon": {
+      "id": "minecraft:gravel"
+    },
+    "title": {
+      "translate": "advancements.strata.enter_stratum.title"
+    },
+    "description": {
+      "translate": "advancements.strata.enter_stratum.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "entered": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "strata:stratum_one"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "entered"
+    ]
+  ]
+}

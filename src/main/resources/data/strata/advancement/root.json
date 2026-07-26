@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "strata:seed_shard"
+    },
+    "title": {
+      "translate": "advancements.strata.root.title"
+    },
+    "description": {
+      "translate": "advancements.strata.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/stone"
+  },
+  "criteria": {
+    "seed_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "strata:seed_shard"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "seed_shard"
+    ]
+  ]
+}

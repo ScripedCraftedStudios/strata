@@ -8,9 +8,24 @@
   "item.strata.seed_shard": "Seed Shard",
   "block.strata.rift_anchor": "Rift Anchor",
 
+  "block.strata.rift_anchor.needs_shard": "The anchor is dormant. It needs a Seed Shard.",
+
   "item.strata.ruby": "Ruby",
   "item.strata.rose": "Rose",
   "item.strata.changelog_page": "Changelog Page",
+
+  "advancements.strata.root.title": "Echoes",
+  "advancements.strata.root.description": "Brush a buried Excavation Site and turn up a Seed Shard",
+  "advancements.strata.find_anchor.title": "Dormant",
+  "advancements.strata.find_anchor.description": "Recover a Rift Anchor. Strike it with a Seed Shard to wake it",
+  "advancements.strata.enter_stratum.title": "It Is Your World",
+  "advancements.strata.enter_stratum.description": "Step through the rift into Stratum I",
+  "advancements.strata.ruby.title": "Older Than Emerald",
+  "advancements.strata.ruby.description": "Find the gem that was cut before 1.3",
+  "advancements.strata.rose.title": "Before the Poppy",
+  "advancements.strata.rose.description": "Find the flower that 1.7 replaced",
+  "advancements.strata.changelog_page.title": "Removed Herobrine",
+  "advancements.strata.changelog_page.description": "Recover a page of patch notes that said it for years",
 
   "strata.configuration.title": "STRATA Configs",
   "strata.configuration.section.strata.common.toml": "STRATA Configs",

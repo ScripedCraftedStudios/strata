@@ -41,3 +41,5 @@ run-data/
 **/src/generated/**/.cache/
 repo/
 !**/src/**/repo/
+screenshots/
+screenshots/
